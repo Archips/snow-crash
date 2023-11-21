@@ -7,11 +7,11 @@ This project is part of the cybersecurity post common core projects. It's an int
 Starting the project, all we have is an `.iso`. As suggest by the subject, it's really recommended to connect to that vm through ssh. To do so, we had to follow some certain steps, thanks to this [**tutorial** ](https://youtu.be/Y7KzV-Hl2bw )it wasn't really complicated. We had also a second vm running [**kali on virtual box**](https://www.kali.org/get-kali/#kali-virtual-machines).
 
 ## Useful commands
-1. ssh
+1. **ssh**  
 		```ssh level<XX>@<IP> -p 4242```  
 		For instance : ```ssh level12@192.168.56.101 -p 4242```
     
-3. scp
+2. **scp**  
 		```scp -P 4242 level<XX>@<IP>:<path/of/file/> <destination/path>```  
 		For instance : ```scp -P 4242 level09@192.168.56.101:/home/user/level09/token .```  
 
