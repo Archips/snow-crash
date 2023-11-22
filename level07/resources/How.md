@@ -43,7 +43,7 @@ We see that the env var **LOGNAME** is echoed. Indeed when we look at the env, w
 The idea is to change the value of **LOGNAME** to be `getflag`. The issue is that `/bin/echo getflag` just echo `getflag`. The trick is to set `getflag` between back ticks since when echo is follow by an expression between back ticks it executes and prints the result of the expression. Let's change the value of our env var.
 
 ```
-export LOGNAME='\`getflag\`'
+export LOGNAME='`getflag`'
 ```
 
 Now, `./level07` gives us:
