@@ -23,7 +23,7 @@ for i in /opt/openarenaserver/* ; do
         rm -f "$i"
 done
 ```
-It's a script bash. This script loop over everything in the directory. `ulimit -t 5` gives a limit of 5 seconds of CPU time. `bash -x "$i"` execute **$i** and the **-x** print the command in the standard error output. After the execution of a file, it's deleted. 
+It's a script bash. This script loop over everything in the directory. `ulimit -t 5` gives a limit of 5 seconds of CPU time. `bash -x "$i"` execute **$i** and the **-x** print the command in the standard error output. After the execution of a file, this one is deleted. 
 
 So the idea is to write a script that will be store in `/opt/openarenaserver/` and executed by the script just above.
 
