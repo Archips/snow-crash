@@ -50,11 +50,11 @@ print $r;
 
 ```
 
-We should take a special attention at this precise line:
+We should take special attention to this precise line:
 
 **`$a = preg_replace("/(\[x (.*)\])/e", "y(\"\\2\")", $a);`**
 
-Indeed, the `/e` is a well know vulnerabilities in php script. The e modifier in PHP regular expressions stands for "eval." When used, it allows the evaluation of the matched pattern as PHP code. We will use it at our advantage. We'll write a script that we'll pass as argument at ./level06.
+Indeed, the `/e` is a well known vulnerability in php script. The e modifier in PHP regular expressions stands for "eval." When used, it allows the evaluation of the matched pattern as PHP code. We will use it at our advantage. We'll write a script that we'll pass as argument at ./level06.
 
 ```
 echo '[x ${`getflag`}]' > /tmp/flag06
