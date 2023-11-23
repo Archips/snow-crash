@@ -21,7 +21,7 @@ x(param("x"));
 ```
 **sub x** defines a subroutine. In it, there's a variable **y** that takes the value of the first argument of the function. The back ticks mean for **print** that it has to execute the shell command `echo $y 2>&1` instead of print `echo $y 2>&1`. So we can conclude that **y** aka the first param will be executed. So the idea in this case is to pass `getflag` as argument to the **x** subroutine. To do so, we'll use that command:
 
-`curl 'localhost:4747?x=$(getflag)'`  gives us **`ne2searoevaevoem4ov4ar8ap`**
+```curl localhost:4747?'x=`getflag`'```  gives us **`ne2searoevaevoem4ov4ar8ap`**
 
 We will use it to log as level05
 
