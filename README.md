@@ -4,7 +4,7 @@ This project is part of the cybersecurity post common core projects. It's an int
 
 ## Setup
 
-Starting the project, all we have is an `.iso`. As suggest by the subject, it's really recommended to connect to that vm through ssh. To do so, we had to follow some certain steps, thanks to this [**tutorial** ](https://youtu.be/Y7KzV-Hl2bw )it wasn't really complicated. We had also a second vm running [**kali on virtual box**](https://www.kali.org/get-kali/#kali-virtual-machines).
+Starting the project, all we have is an `.iso`. As suggest by the subject, it's really recommended to connect to that vm through ssh. To do so, we have to follow some certain steps, thanks to this [**tutorial** ](https://youtu.be/Y7KzV-Hl2bw )it's not really complicated. We have also a second vm running [**kali on virtual box**](https://www.kali.org/get-kali/#kali-virtual-machines).
 
 ## Useful commands
 1. **ssh**  
