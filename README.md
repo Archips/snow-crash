@@ -1,6 +1,6 @@
 # snow-crash
 
-This project is part of the cybersecurity post common core projects. It's an introduction to computer security involving 15 levels and thus 15 flags to progress from one level to the next one. Through those levels, we discover many sub security domains and become familiar with some languages (ASM, Perl, php, bash, ..). Moreover, this project offers a new logic to dissect programs we are unfamiliar with and an certain awareness of security risks linked to simple programming errors.
+This project is part of the cybersecurity post common core projects. It's an introduction to computer security involving 15 levels and thus 15 flags to progress from one level to another. Through those levels, we discover many sub security domains and become familiar with some languages (ASM, Perl, php, bash, ..). Moreover, this project offers a new logic to dissect programs we are unfamiliar with and an certain awareness of security risks linked to simple programming errors.
 
 ## Setup
 
