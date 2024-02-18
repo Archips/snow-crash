@@ -24,7 +24,7 @@ Let's make some more tests:
 
 We can observe that `./level09` output is arg but every char is the result of the initial char plus the number of chars before it.
 
-`token`  gives us, **t** because `t - 0`, **p** because `o + 1`, and so on, so at the end we got **r** because `n - 4`.
+`token`  gives us, **t** because `t - 0`, **p** because `o - 1`, and so on, so at the end we got **r** because `n - 4`.
 
 Let's write a C program that will reverse this algorithm.
 
