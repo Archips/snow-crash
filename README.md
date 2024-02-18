@@ -26,4 +26,3 @@ Starting the project, all we have is an `.iso`. As suggest by the subject, it's 
 ## Author
 
 [Archibald Thirion](https://github.com/Archips)  
-[Cristina Mois](https://github.com/Cristinamois/)
